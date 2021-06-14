@@ -14,3 +14,7 @@ To install clone the git repo: `git clone https://github.com/OneLastTry/pytorch.
 With the container running you can access _JupyterLab_ using the link below:
 [http://localhost:5000/lab](http://localhost:5000/lab)
 The password is **admin**, you can change that on the _Dockerfile_.
+
+Help links:
+- [Install Docker](https://docs.docker.com/get-docker/)
+- [Install docker-compose](https://docs.docker.com/compose/install/)
