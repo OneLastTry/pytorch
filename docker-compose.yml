@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  pytorch:
+    image: pytorch/pytorch:latest
+    build:
+      context: .
+    hostname: pytorch
+    container_name: pytorch
+    entrypoint: jupyter lab --ip 0.0.0.0 --port 8888 --allow-root
+    ports:
+    - "5000:8888"
+    - "5001:6006"
+    volumes:
+    - type: bind
+      source: ./workspace
+      target: /workspace
