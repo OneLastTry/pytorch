@@ -1,4 +1,4 @@
-# PyTorch with JupyterLab Template for Duke ML Lab
+# PyTorch with JupyterLab Template
 
 This is just a template that uses the latest [PyTorch](https://pytorch.org) image and installs [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/) on it to allow easy work.
 
