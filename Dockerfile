@@ -1,7 +1,7 @@
 FROM pytorch/pytorch
 
 # you can change this to reflect your timezone
-#ENV TZ=Asia/Dubai
+#ENV TZ=America/New_York
 #RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN pip freeze
